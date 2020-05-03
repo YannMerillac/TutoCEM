@@ -1,0 +1,3 @@
+# to build python module:
+f2py.exe --overwrite-signature mom_interface.f90 -m mom_interface -h mom_interface.pyf
+f2py -c mom_interface.pyf *.f90 *.f
